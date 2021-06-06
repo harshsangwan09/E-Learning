@@ -1,0 +1,159 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="afterlogin.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style5
+        {
+            height: 229px;
+        }
+        .style6
+        {
+            width: 273px;
+        }
+        </style>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif">
+    <form id="form1" runat="server">
+    <table align="center" cellpadding="0" cellspacing="0" class="style1">
+        <tr>
+            <td>
+                <table align="center" cellpadding="0" cellspacing="0" class="style1">
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="10" cellspacing="0" class="style1" bgcolor="Black">
+                                <tr align=center; valign=middle;>
+                                    <td style="text-align: center" >
+                                        <asp:LinkButton ID="LinkButton1" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="default.aspx" ForeColor="White">Home</asp:LinkButton>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton24" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/uploadvideo.aspx" ForeColor="White">Upload Video</asp:LinkButton>
+                                    </td>
+                                     <td style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton2" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/NotesStudent.aspx" ForeColor="White">Notes</asp:LinkButton>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton26" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="feedback.aspx" ForeColor="White">Feedback</asp:LinkButton>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton48" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/usertestresult.aspx" 
+                                            ForeColor="White">Check Result</asp:LinkButton>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton45" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/Default.aspx" ForeColor="White">Log Out</asp:LinkButton>
+                                    </td>
+                                    <td style="text-align: center">
+                                        &nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#76C3EB" class="style5" valign="top">
+                            <table cellpadding="0" cellspacing="0" class="style1">
+                                <tr>
+                                    <td>
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/e-learning-concept-hand-writing-blue-marker-transparent-wipe-board-30969640.jpg" 
+                                Height="250px" Width="1447px" />
+                                    </td>
+                                    <td>
+                                        &nbsp;</td>
+                                </tr>
+                            </table>
+                            </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table align="center" cellpadding="0" cellspacing="0" class="style1">
+                    <tr>
+                        <td class="style6" valign=top bgcolor="#76C3EB" style="padding-left:10px;">
+                            <table align="center" cellpadding="0" cellspacing="0" class="style1">
+                                <tr>
+                                    <td>
+                                        &nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-bottom:10px;">
+                                        <asp:LinkButton ID="LinkButton42" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/C.aspx">C++ Tutorial</asp:LinkButton>
+                                        <br />
+                                        <br />
+                                        <asp:LinkButton ID="LinkButton43" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/Html.aspx">HTML Tutorial</asp:LinkButton>
+                                        <br />
+                                        <br />
+                                        <asp:LinkButton ID="LinkButton44" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/java.aspx">Java Tutorial</asp:LinkButton>
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                    </td>
+                                </tr>
+                                </table>
+                        </td>
+                        <td valign="top">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                            <table align="center" cellpadding="10" cellspacing="0" class="style1" bgcolor="Black">
+                                <tr align=center; valign=middle;>
+                                    <td style="text-align: center" >
+                                        <asp:LinkButton ID="LinkButton36" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="default.aspx" ForeColor="White">Home</asp:LinkButton>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton47" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/uploadvideo.aspx" ForeColor="White">Upload Video</asp:LinkButton>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton41" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="feedback.aspx" ForeColor="White">Feedback</asp:LinkButton>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton49" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/usertestresult.aspx" 
+                                            ForeColor="White">Check Result</asp:LinkButton>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton46" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/Default.aspx" ForeColor="White">Log Out</asp:LinkButton>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>

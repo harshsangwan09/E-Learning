@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Faculty.master.cs" Inherits="ADMINMASTER" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en">
+<head>
+<title>Student Information System</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 7]>
+<link rel="stylesheet" href="css/ie6.css" type="text/css" media="screen">
+<script type="text/javascript" src="js/ie_png.js"></script>
+<script type="text/javascript">ie_png.fix('.png, footer, header nav ul li a, .nav-bg, .list li img');</script>
+<![endif]-->
+<!--[if lt IE 9]><script type="text/javascript" src="js/html5.js"></script><![endif]-->
+    <style type="text/css">
+        .style2
+        {
+            font-size: 25pt;
+        }
+    </style>
+</head>
+<body id="page1">
+    <form id="form1" runat="server">
+<!-- START PAGE SOURCE -->
+<div class="wrap">
+  <header>
+    <div class="container">
+      <h1><a href="#">Student Information System</a></h1>
+      <nav>
+        <ul>
+          <li class="current"><a href="Default.aspx" class="m1">LOG OUT</a></li>
+          <li><a href="AttendanceFaculty.aspx" class="m2">ATTENDANCE</a></li>
+          <li><a href="MarksFaculty.aspx" class="m3">MARKS</a></li>
+          <li><a href="NotesFaculty.aspx" class="m3">NOTES</a></li>
+          
+        </ul>
+      </nav>
+        <fieldset>
+        </fieldset>
+      </div>
+  </header>
+  <div class="container">
+    <aside>
+      <h3>Categories</h3>
+      <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="Label1" runat="server" 
+              Font-Size="Large" ForeColor="#008CC4"></asp:Label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </p>
+      <ul class="categories">
+
+           
+       
+        
+        <li><span>&nbsp;<asp:Button ID="Button1" runat="server" BackColor="WhiteSmoke" 
+                BorderColor="#F7F7F7" BorderStyle="None" ForeColor="#008CC4" 
+                onclick="Button1_Click1" Text="LOG OUT" Width="87px" />
+            </span></li>
+        
+      </ul>
+        &nbsp;</aside><section id="content"><div id="banner">
+        <h2>Student<span class="style2">Information System</span></h2>
+      </div>
+      <div class="inside">
+       
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+          </asp:ContentPlaceHolder>
+       
+      </div>
+    </section>
+  </div>
+</div>
+<footer>
+  <div class="footerlink">
+    <p class="lf">Copyright © 2014 - All Rights Reserved</p>
+    <p class="rf">&nbsp;</p>
+  </div>
+</footer>
+    </form>
+</body>
+</html>
+
+

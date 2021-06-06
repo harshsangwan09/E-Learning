@@ -1,0 +1,192 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="html.master.cs" Inherits="html" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+        .style1
+        {
+            width: 100%;
+        }
+        .style6
+        {
+            width: 273px;
+        }
+        .style7
+        {
+            height: 19px;
+        }
+        .style8
+        {
+            width: 234px;
+        }
+        .style9
+        {
+            width: 1297px;
+        }
+    </style>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif">
+    <form id="form1" runat="server">
+    <table align="center" cellpadding="0" cellspacing="0" class="style1">
+        <tr>
+            <td bgcolor="#76C3EB" class="style9">
+                <table align="center" cellpadding="0" cellspacing="0" class="style1">
+                    <tr>
+                        <td>
+                            <table align="center" cellpadding="10" cellspacing="0" class="style1" bgcolor="Black">
+                                <tr align=center; valign=middle;>
+                                    <td style="text-align: center" >
+                                        <asp:LinkButton ID="LinkButton1" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/afterlogin.aspx" ForeColor="White">Home</asp:LinkButton>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton2" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/java.aspx" ForeColor="White">Java Script</asp:LinkButton>
+                                    </td>
+                                    <td class="style8" style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton3" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/Html.aspx" ForeColor="White">Html</asp:LinkButton>
+                                    </td>
+                                    <td class="style7" style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton4" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/c.aspx" ForeColor="White">C++</asp:LinkButton>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton26" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="feedback.aspx" ForeColor="White">Feedback</asp:LinkButton>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    </table>
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/html_banner.jpg" 
+                                Height="250px" Width="1400px" />
+                            </td>
+        </tr>
+        <tr>
+            <td class="style9">
+                <table align="center" cellpadding="0" cellspacing="0" class="style1">
+                    <tr>
+                        <td class="style6" valign=top bgcolor="#76C3EB" style="padding-left:10px;">
+                            <table align="center" cellpadding="0" cellspacing="0" class="style1">
+                                <tr>
+                                    <td>
+                                        &nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-bottom:10px;">
+                                        <asp:LinkButton ID="LinkButton11" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" ForeColor="#3366CC" PostBackUrl="htmlintro.aspx">Html 
+                                        Introduction</asp:LinkButton>
+                                    </td>
+                                </tr>
+                                <tr style="padding-bottom:10px;">
+                                    <td style="padding-bottom:10px;">
+                                        <asp:LinkButton ID="LinkButton12" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" ForeColor="#3366CC" PostBackUrl="htmlheading.aspx">Html 
+                                        Heading</asp:LinkButton>
+                                    </td>
+                                </tr>
+                                <tr style="padding-bottom:10px;">
+                                    <td style="padding-bottom:10px;">
+                                        <asp:LinkButton ID="LinkButton14" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" ForeColor="#3366CC" 
+                                            PostBackUrl="htmlparagraph.aspx">Html Paragraph</asp:LinkButton>
+                                    </td>
+                                </tr>
+                                <tr style="padding-bottom:10px;">
+                                    <td style="padding-bottom:10px;">
+                                        <asp:LinkButton ID="LinkButton15" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" ForeColor="#3366CC" PostBackUrl="htmlform.aspx">Html 
+                                        Form</asp:LinkButton>
+                                    </td>
+                                </tr>
+                                <tr style="padding-bottom:10px;">
+                                    <td style="padding-bottom:10px;">
+                                        <asp:LinkButton ID="LinkButton16" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" ForeColor="#3366CC" PostBackUrl="htmllist.aspx">Html 
+                                        List</asp:LinkButton>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td  style="padding-bottom:10px;">
+                                        <asp:LinkButton ID="LinkButton13" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" ForeColor="#3366CC" PostBackUrl="htmltable.aspx">Html 
+                                        Table</asp:LinkButton>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td  style="padding-bottom:10px;">
+                                        <asp:LinkButton ID="LinkButton17" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" ForeColor="#3366CC" PostBackUrl="htmlsound.aspx">Html 
+                                        Sound</asp:LinkButton>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td  style="padding-bottom:10px;" class="style7">
+                                        <asp:LinkButton ID="LinkButton18" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" ForeColor="#3366CC" PostBackUrl="htmlvideo.aspx">Html 
+                                        Video</asp:LinkButton>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td  style="padding-bottom:10px;">
+                                        <asp:LinkButton ID="LinkButton19" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" ForeColor="#3366CC" PostBackUrl="htmltest.aspx">Html 
+                                        Test</asp:LinkButton>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td  style="padding-bottom:10px;">
+                                        &nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td valign="top">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="style9">
+                            <table align="center" cellpadding="10" cellspacing="0" class="style1" bgcolor="Black">
+                                <tr align=center; valign=middle;>
+                                    <td style="text-align: center" >
+                                        <asp:LinkButton ID="LinkButton27" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/afterlogin.aspx" ForeColor="White">Home</asp:LinkButton>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton28" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/java.aspx" ForeColor="White">Java Script</asp:LinkButton>
+                                    </td>
+                                    <td class="style8" style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton29" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/Html.aspx" ForeColor="White">Html</asp:LinkButton>
+                                    </td>
+                                    <td class="style7" style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton30" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="~/c.aspx" ForeColor="White">C++</asp:LinkButton>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <asp:LinkButton ID="LinkButton32" runat="server" Font-Bold="True" 
+                                            Font-Underline="False" PostBackUrl="feedback.aspx" ForeColor="White">Feedback</asp:LinkButton>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
